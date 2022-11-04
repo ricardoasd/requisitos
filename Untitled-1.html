@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comprar tikets</title>
+    <link rel="styleshet" href="styles.css">
+    
+</head>
+<body>
+
+  <body>
+
+    <script src="validar.js"></script>
+    </body>
+
+    <div class="container">
+
+        <form class="container_form" onsubmit="return validar()">
+
+            <label for="nomp">Nombre de la pelicula</label>
+            <input type="text" name="nom" id="nomp"/>
+
+            <label for="idp">Id de la pelicula</label>
+            <input type="number" name="id" id="idp"/>
+
+            <label for="costp">costo tiket</label>
+            <input type="number" name="cost" id="costp"/>
+          
+             <label for="horp">Hora de la pelicula</label>
+            <input type="text" name="hor" id="horp"/>
+           
+            <div class="btn_en">
+
+                <input type="submit" value="Confirmar compra"/>
+
+            </div>
+
+       
+       
+        
+    </div>
+
+    <style>
+      body{
+    background-color: rgb(235, 0, 0);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.container_form {
+    display: flex;
+    flex-direction: column;
+    background-color: #ff0202;
+    width: 400px;
+    margin: 5em 2em;
+    padding: 7px;
+    border-radius: 0.4em;
+
+
+
+}
+
+.container_form input {
+    margin:  5px 8px;
+    border: 3px solid #b8e3c6;
+    border-radius: 1em;
+    background-color: #eaeceb;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container_form input:focus{
+    outline: none;
+    border: 3px solid #000000;
+}
+
+
+.container_form label {
+    margin-left: 5px;
+    color: #ffffff;
+    font-size: larger;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+    
+}
+
+.btn_en {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn_en input {
+    display: flex;
+    justify-content: center;
+   width: 60%;
+   margin: 0.4em 0;
+   border: 2px solid #b8e3c6;
+   background-color: #b6e7bc;
+   color: #ffffff;
+   font-size: 1em;
+}
+
+.btn_en input:focus{
+    border: 1px solid #b8e3c6;
+}
+.btn_en input:hover {
+    background-color: #0000005b;
+   transition: 0.5s background-color;
+}
+        a {
+      display: block;
+      width: 67px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: 700;
+      border-radius: 100px;
+      margin: 150px 130px;
+      padding: 15px 30px;
+      background-color: #000000;
+
+
+        }
+    </style>
+      <body>
+        <a href="Untitled-2.html"
+        target="_blank">consultar tiket economicos</a>
+      </body>
+</body>
+</html>
